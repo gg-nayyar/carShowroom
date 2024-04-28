@@ -1,0 +1,13 @@
+.textColor{
+    color: aliceblue;
+}
+.container{
+    margin-left: 30px;
+    margin-top: 100px;
+    height: 150px;
+    background-color: burlywood;
+    width: auto;
+}
+.second_container{
+    margin-left: 500px;
+}

@@ -1,0 +1,17 @@
+ const ref = useRef();
+    const tl = useRef();
+    const scroll = useScroll();
+
+    useFrame(() => {tl.current.seek(scroll.offset * tl.current.duration())});
+
+    useLayoutEffect(()=> {
+      tl.current = gsap.timeline();
+      tl.current.to(
+        ref.current.postion,
+        {
+          duration: 2,
+          y:-m *(n-1),
+        },
+        0
+      );
+    },[]);
